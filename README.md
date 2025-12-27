@@ -8,8 +8,9 @@ Open Source IP Camera design
 - **Flexible**: Supports many different Raspberry Pi cameras
 
 ## Features
-- **RPi CM5** for AI accelerator support
-- **3D printed enclosure** So anyone can build it
+- **RPi CM5**- for AI accelerator support
+- **3D printed enclosure**- So anyone can build it
+- Tripod mountable
 
 ## Current Status
 - CAD design is underway

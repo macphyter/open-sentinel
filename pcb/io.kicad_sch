@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "431d65c9-443c-4950-addd-728414f56fa3")
+	(paper "A3")
+	(title_block
+		(title "Open-Sentinel")
+		(date "2025-12-28")
+		(rev "0.9")
+	)
+	(lib_symbols)
+)

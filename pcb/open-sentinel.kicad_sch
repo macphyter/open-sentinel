@@ -55,8 +55,105 @@
 		)
 	)
 	(sheet
-		(at 273.05 98.425)
-		(size 44.45 52.705)
+		(at 260.985 88.9)
+		(size 27.94 15.875)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "3f17a2d3-b46e-4fd2-94e5-6b166dbe0741")
+		(property "Sheetname" "CSI_PORTS"
+			(at 260.985 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "csi_ports.kicad_sch"
+			(at 260.985 105.3596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "open-sentinel"
+				(path "/b7d228cf-f9da-4203-b1ed-1128e1073415"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 260.985 176.53)
+		(size 28.575 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 128 77 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "5753f816-5b94-4172-aa4c-53e8e6180fb4")
+		(property "Sheetname" "HDMI"
+			(at 260.985 175.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hdmi.kicad_sch"
+			(at 260.985 192.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "HDMI_OUT" output
+			(at 260.985 184.15 180)
+			(uuid "0ef56ed7-ba1f-465c-875d-7f544479573d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "open-sentinel"
+				(path "/b7d228cf-f9da-4203-b1ed-1128e1073415"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 260.985 120.65)
+		(size 27.94 36.195)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -72,7 +169,7 @@
 		)
 		(uuid "595b30cb-aa99-4e68-b38c-546823c41214")
 		(property "Sheetname" "IO"
-			(at 273.05 97.7134 0)
+			(at 260.985 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,7 +178,7 @@
 			)
 		)
 		(property "Sheetfile" "io.kicad_sch"
-			(at 273.05 151.7146 0)
+			(at 260.985 157.4296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -99,8 +196,8 @@
 		)
 	)
 	(sheet
-		(at 168.91 96.52)
-		(size 53.975 85.09)
+		(at 168.91 88.9)
+		(size 53.975 92.71)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -116,7 +213,7 @@
 		)
 		(uuid "9dde032a-6997-41ab-ba94-fb61023c6fe5")
 		(property "Sheetname" "RPi CM5"
-			(at 168.91 95.8084 0)
+			(at 168.91 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -135,7 +232,7 @@
 			)
 		)
 		(pin "PCIe-PI" bidirectional
-			(at 222.885 167.005 0)
+			(at 222.885 159.385 0)
 			(uuid "748a5c09-7de1-4d1e-b3cd-89ef4cce1123")
 			(effects
 				(font
@@ -145,7 +242,7 @@
 			)
 		)
 		(pin "USB2" bidirectional
-			(at 222.885 149.86 0)
+			(at 222.885 142.24 0)
 			(uuid "b6dd4c55-9f8f-4e09-b8f0-274109912b67")
 			(effects
 				(font
@@ -224,16 +321,6 @@
 				(justify left)
 			)
 		)
-		(pin "CAM_GPIO0" input
-			(at 222.885 132.715 0)
-			(uuid "bc5cd170-952a-4021-8dd1-627d836d9903")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "CC1" bidirectional
 			(at 168.91 155.575 180)
 			(uuid "f57c1ba5-853d-4efe-a592-3feba2cebfe5")
@@ -295,7 +382,7 @@
 			)
 		)
 		(pin "I2C0" bidirectional
-			(at 222.885 158.115 0)
+			(at 222.885 150.495 0)
 			(uuid "11070f2d-8b49-430b-b725-322bab8946c8")
 			(effects
 				(font
@@ -305,7 +392,7 @@
 			)
 		)
 		(pin "I2C1" bidirectional
-			(at 222.885 160.655 0)
+			(at 222.885 153.035 0)
 			(uuid "7077afa3-394d-46e4-a7ac-70589fab4517")
 			(effects
 				(font
@@ -315,7 +402,7 @@
 			)
 		)
 		(pin "LED_ACTIVITY" output
-			(at 222.885 142.24 0)
+			(at 222.885 127.635 0)
 			(uuid "84c0ab47-bb5e-40cd-871e-4fca5b50e3cf")
 			(effects
 				(font
@@ -325,7 +412,7 @@
 			)
 		)
 		(pin "nRPIBOOT" input
-			(at 222.885 174.625 0)
+			(at 222.885 167.005 0)
 			(uuid "099a4126-7f12-4d54-bdfb-b49fe146cb49")
 			(effects
 				(font
@@ -365,8 +452,38 @@
 			)
 		)
 		(pin "SPI" bidirectional
-			(at 222.885 115.57 0)
+			(at 222.885 121.92 0)
 			(uuid "14b2df70-ecfc-49b6-bf28-9b48683a0bf0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI_OUT" bidirectional
+			(at 222.885 175.26 0)
+			(uuid "8f48f20c-5726-4bdb-b7f4-1c72a54fdeab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CSI0" input
+			(at 222.885 95.885 0)
+			(uuid "01193def-3b6c-4d9e-a34b-18f0bc1c7287")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CSI1" input
+			(at 222.885 100.33 0)
+			(uuid "3483f7f1-1fc4-4152-b4bd-8429190889f2")
 			(effects
 				(font
 					(size 1.27 1.27)

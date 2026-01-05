@@ -6336,7 +6336,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.125 80.01) (xy 260.985 80.01)
+			(xy 238.125 80.01) (xy 257.175 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8444,7 +8444,7 @@
 		)
 		(uuid "0ca77c73-c574-4912-b646-6525580c8371")
 	)
-	(label "PCIe-PI.TX_N"
+	(label "PCIe.TX_N"
 		(at 247.65 113.665 0)
 		(effects
 			(font
@@ -8504,7 +8504,7 @@
 		)
 		(uuid "27453226-e325-4f9b-8967-1a54f7b0bf7c")
 	)
-	(label "PCIe-PI.nCLKREQ"
+	(label "PCIe.nCLKREQ"
 		(at 247.65 85.725 0)
 		(effects
 			(font
@@ -8624,7 +8624,7 @@
 		)
 		(uuid "3f5b639a-6672-4db9-8fa7-3c0893ed0d3f")
 	)
-	(label "PCIe-PI.CLK_N"
+	(label "PCIe.CLK_N"
 		(at 247.65 98.425 0)
 		(effects
 			(font
@@ -8784,7 +8784,7 @@
 		)
 		(uuid "5e63e122-f44b-421b-bf24-63cdb9f9a831")
 	)
-	(label "PCIe-PI.RX_P"
+	(label "PCIe.RX_P"
 		(at 247.65 103.505 0)
 		(effects
 			(font
@@ -8794,7 +8794,7 @@
 		)
 		(uuid "651dc475-95c6-4639-9fb9-50c5f3cc3bdf")
 	)
-	(label "PCIe-PI.CLK_P"
+	(label "PCIe.CLK_P"
 		(at 247.65 95.885 0)
 		(effects
 			(font
@@ -8834,7 +8834,7 @@
 		)
 		(uuid "712b7630-3789-452a-bee5-a264f64b95f0")
 	)
-	(label "PCIe-PI.TX_P"
+	(label "PCIe.TX_P"
 		(at 247.65 111.125 0)
 		(effects
 			(font
@@ -8894,7 +8894,7 @@
 		)
 		(uuid "8023ccdd-870a-4eeb-9edc-5d52bc89a1cd")
 	)
-	(label "PCIe-PI.RX_N"
+	(label "PCIe.RX_N"
 		(at 247.65 106.045 0)
 		(effects
 			(font
@@ -8994,7 +8994,7 @@
 		)
 		(uuid "a2103226-fe2c-435c-90de-8b542977ed75")
 	)
-	(label "PCIe-PI.PWR_EN"
+	(label "PCIe.PWR_EN"
 		(at 247.65 90.805 0)
 		(effects
 			(font
@@ -9144,8 +9144,8 @@
 		)
 		(uuid "dd635174-8711-4ab4-ab50-7a79dcb33360")
 	)
-	(label "PCIe-PI.nRST"
-		(at 260.985 80.01 180)
+	(label "PCIe.nRST"
+		(at 257.175 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9174,7 +9174,7 @@
 		)
 		(uuid "ebe1e7a0-dd4e-49f8-8cc3-171188b51e81")
 	)
-	(label "PCIe-PI.nWAKE"
+	(label "PCIe.nWAKE"
 		(at 247.65 88.265 0)
 		(effects
 			(font
@@ -9295,7 +9295,7 @@
 		)
 		(uuid "02db5fdb-788b-4457-abd3-c7952ae0f3b8")
 	)
-	(hierarchical_label "PCIe-PI"
+	(hierarchical_label "PCIe"
 		(shape bidirectional)
 		(at 227.33 70.485 180)
 		(effects
